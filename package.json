@@ -1,5 +1,5 @@
 { "name": "promised-traits"
-, "version": "0.0.1"
+, "version": "0.0.2"
 , "description": "Library that mixes traits and promises and allows writing linear to do async stuff."
 , "homepage": "http://github.com/Gozala/promised-traits/"
 , "keywords": ["promises", "traits"]
@@ -17,14 +17,17 @@
   , "test": "./test"
   }
 , "dependencies":
-  { "test": ">=0.0.5"
-  , "q": ">=0.0.0"
+  { "test": ">=0.0.10"
+  , "q": ">=0.1.0"
   , "light-traits": ">=0.0.3"
-  , "promised-utils": ">=0.0.2"
+  , "promised-utils": ">=0.0.5"
   }
 , "main": "./lib/promised-traits"
 , "scripts": { "test": "node test/all.js" }
-, "engines": { "node": ">=0.1.103" }
+, "engines":
+  { "node": ">=0.1.103"
+  , "teleport": ">=0.2.0"
+  }
 , "licenses" :
   [ { "type" : "MPL 1.1/LGPL 2.1/GPL 2.0"
     , "url" : "http://www.mozilla.org/MPL/"
