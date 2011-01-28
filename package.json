@@ -18,9 +18,9 @@
   }
 , "dependencies":
   { "test": ">=0.0.10"
-  , "q": ">=0.1.0"
+  , "q": ">=0.2.5"
   , "light-traits": ">=0.0.6"
-  , "promised-utils": ">=0.0.5"
+  , "promised-utils": ">=0.0.8"
   }
 , "main": "./lib/promised-traits"
 , "scripts": { "test": "node test/all.js" }
