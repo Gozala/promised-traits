@@ -1,5 +1,5 @@
 { "name": "promised-traits"
-, "version": "0.0.3"
+, "version": "0.0.4"
 , "description": "Library that mixes traits and promises and allows writing linear to do async stuff."
 , "homepage": "http://github.com/Gozala/promised-traits/"
 , "keywords": ["promises", "traits"]
