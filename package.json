@@ -19,7 +19,7 @@
 , "dependencies":
   { "test": ">=0.0.11"
   , "q": ">=0.2.5"
-  , "light-traits": ">=0.0.8"
+  , "light-traits": ">=0.1.0"
   , "promised-utils": ">=0.0.8"
   }
 , "main": "./lib/promised-traits"
